@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Azure Enrollment</title>
+<style>
+    div {
+        text-align: center;
+        text-align: justify;
+        text-justify: inter-word;
+    }
+    img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    </style>
+</head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<body>
+    <!-- Sidebar -->
+    <div class="w3-sidebar w3-light-grey w3-bar-block" style="width:25%">
+        <h3 class="w3-bar-item">Microsoft Azure</h3>
+        <ul>
+            <li> Azure Landing Zone </li>
+                <ul>
+                    <li> <a href="./initial_considerations.html" class="w3-bar-item w3-button">Initial considerations and approach</a>  </li>
+                    <li> Azure Landing Zone Concepts </li>
+                        <ul>
+                            <li> <a href="./azure_enrollment.html" class="w3-bar-item w3-button">Azure Enrollment</a> </li>
+                            <li> Management Groups </li>
+                            <li> Susbscriptions </li>
+                            <li> Resource Groups</li>
+                            <li> Iberdrola's Network Architecture: Hub-and-Spoke </li>
+                            <li> Spoke Networking </li>
+                            <li> Policies </li>
+                            <li> Tags </li>
+                        </ul>
+                </ul>
+        </ul>
+        <h3 class="w3-bar-item">Google Cloud Platform</h3>
+        <ul>
+            <li> GCP Landing Zone </li>
+                <ul>
+                <li> <a href="./initial_considerations.html" class="w3-bar-item w3-button">Initial considerations and approach</a>  </li>
+                <li> GCP Landing Zone Concepts </li>
+                    <ul>
+                        <li> <a href="./azure_enrollment.html" class="w3-bar-item w3-button">GCP Enrollment</a> </li>
+                            <li> Management Groups </li>
+                            <li> Susbscriptions </li>
+                            <li> Resource Groups</li>
+                            <li> Iberdrola's Network Architecture: Hub-and-Spoke </li>
+                            <li> Spoke Networking </li>
+                            <li> Policies </li>
+                            <li> Tags </li>
+                        </ul>
+                </ul>
+        </ul>
+    </div>
+    <!-- Page Content-->
+    <div style="margin-left:25%">
+        <div class="w3-container w3-teal">
+            <h1 align = "center">Azure Enrollment</h1>
+        </div>
+        <div class="w3-center">
+            The Enrollment represents a billing contract, also referred to as an Enterprise Agreement, that Iberdrola has with Microsoft to use Azure. Additionally, an enrollment often represents an organization's hierarchy, which includes departments, accounts, and subscriptions. This hierarchy represents cost-enrollment groups within an organization.
+    
+            <img  src="./resources/Figura2-AzureEnterpriseHierachypng.png" alt="Figura2-AzureEnterpriseHierachy" style="width: 25%" >
+            
+            Iberdrola is identified by Enrollment number 5861605
+            
+            <h2> Enterprise agreement. </h2>
+            An Enterprise Agreement (EA) enrollment represents the commercial relationship between Microsoft and how Iberdrola uses Azure. 
+            
+            <h2> Department. </h2>
+            Departments help to segment costs into logical groupings and to set a budget or quota at the department level. The quota isn't enforced firmly and is used for reporting purposes.
+            The current definition of the departments within the Iberdrola organization have been segregated by the countries they make up within the organization itself, to maintain proper coherence and comply with the best practices defined.
+            
+            <img  src="./resources/Figure3-EnrollmentDepartmentsDefinition.png" alt="Figure3-EnrollmentDepartmentsDefinition" style="width: 75%" >
+            
+            Accounts are organizational units in the Azure EA portal. They can be used to manage subscriptions and access reports. The Azure account is a global unique entity that gets you access to Azure services and your Azure subscriptions.
+            
+            The current definition of the accounts within the Iberdrola organization has been segregated by its operating countries.
+            
+            <img  src="./resources/Figure4-EnrollmentAccountsDefinition.png" alt="Figure4-EnrollmentAccountsDefinition" style="width: 75%" >
+            
+            Whole picture of Azure enrollment structure is shown in the next figure:
+            
+            <img  src="./resources/Figure5-EnrollmentDefinition.png" alt="Figure5-EnrollmentDefinition" style="width: 75%" >
+            
+            <h2> Naming Conventions. </h2>
+                <li style="align-items:flex-start;"> Enterprise Agreement  -> “Iberdrola” </li>
+                <li style="align-items:flex-start;"> Department 	        -> IB-{company} E.g. (IB-IBERDROLA, US-AVANTGRID…)</li>
+                <li style="align-items:flex-start;"> Accounts	            -> IB–{country name} E.g. (IB-SPAIN, IB-USA…)</li>
+        </div>
+    </div>
+
+    
+
+</body>
+</html>

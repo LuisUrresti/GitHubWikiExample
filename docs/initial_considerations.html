@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Initial Considerations and Approach</title>
+<style>
+    div {
+        text-align: center;
+        text-align: justify;
+        text-justify: inter-word;
+    }
+    img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    </style>
+</head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<body>
+    <!-- Sidebar -->
+    <div class="w3-sidebar w3-light-grey w3-bar-block" style="width:25%">
+        <h3 class="w3-bar-item">Microsoft Azure</h3>
+        <ul>
+            <li> Azure Landing Zone </li>
+                <ul>
+                    <li> <a href="./initial_considerations.html" class="w3-bar-item w3-button">Initial considerations and approach</a>  </li>
+                    <li> Azure Landing Zone Concepts </li>
+                        <ul>
+                            <li> <a href="./azure_enrollment.html" class="w3-bar-item w3-button">Azure Enrollment</a> </li>
+                            <li> Management Groups </li>
+                            <li> Susbscriptions </li>
+                            <li> Resource Groups</li>
+                            <li> Iberdrola's Network Architecture: Hub-and-Spoke </li>
+                            <li> Spoke Networking </li>
+                            <li> Policies </li>
+                            <li> Tags </li>
+                        </ul>
+                </ul>
+        </ul>
+        <h3 class="w3-bar-item">Google Cloud Platform</h3>
+        <ul>
+            <li> GCP Landing Zone </li>
+                <ul>
+                <li> <a href="./initial_considerations.html" class="w3-bar-item w3-button">Initial considerations and approach</a>  </li>
+                <li> GCP Landing Zone Concepts </li>
+                    <ul>
+                        <li> <a href="./azure_enrollment.html" class="w3-bar-item w3-button">GCP Enrollment</a> </li>
+                            <li> Management Groups </li>
+                            <li> Susbscriptions </li>
+                            <li> Resource Groups</li>
+                            <li> Iberdrola's Network Architecture: Hub-and-Spoke </li>
+                            <li> Spoke Networking </li>
+                            <li> Policies </li>
+                            <li> Tags </li>
+                        </ul>
+                </ul>
+        </ul>
+    </div>
+    <div style="margin-left:25%">
+        <div class="w3-container w3-teal">
+            <h1 align = "center">Initial Considerations and Approach</h1>
+        </div>
+        When working with Azure, the organizational and hierarchical structure of the elements could be, like for the rest of the Cloud providers, different for each company to accommodate better their preferred way of working and managing IT resources.
+
+        Following requirements were considered for defining Iberdrola’s landing zone.
+        <ul>
+            <li>   Define TO-BE subscriptions model based in Iberdrola’s organization. </li>
+            <li>	Define specific criteria about when and where create a specific subscription for a use case. </li>
+            <li>	Include Management groups and their capabilities of simplifying governance of subscriptions and resources. </li>
+            <li>	Ensure that the model suits whit actual and future needs, specially taking into account a massive grow in coming years. </li>
+            <li>	Keep in mind isolation between resources for different concerns. </li>
+            <li>	Describe networking model within a subscription for standard use cases. </li>
+            <li>	Resources cannot be accessed directly from internet. </li>
+            <li>	All subscription subnets should be accessed from other subscriptions subnets as well as from on premises.</li>
+        </ul>
+
+        Regarding approach Iberdrola’s landing zone aims to be aligned with Cloud Adoption Framework enterprise-scale landing zone architecture: 
+        
+        <img  src="./resources/Figure1-Cloud Adoption Framework.png" alt="Iberdrola" style="width: 75%" >
+    </div>
+    
+
+</body>
+</html>
