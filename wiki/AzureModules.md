@@ -19,10 +19,10 @@
 | Key Vault | Key Vault | - | [keyvault](https://github.com/everis-technology/celz-terraform-azure-keyvault.git) | - | - |
 | Load Balancer | Module for Azure Load Balancer | [loadbalancer](https://github.com/Azure/terraform-azurerm-loadbalancer) | - | v3.2.0 | - |
 | Log Analytics Workspace | Module for Log Analytics workspace | - | [log-analytics](https://github.com/everis-technology/celz-terraform-azure-log-analytics-workspace.git) | - | - |
-| Management Groups | Management Groups | 	[magement-groups](https://github.com/terraform-azurerm-modules/terraform-azurerm-management-groups) | [magement-groups](https://github.com/everis-technology/terraform-azurerm-management-groups)| v0.2.20 | - |
+| Management Groups | Management Groups | 	[magement-groups](https://github.com/terraform-azurerm-modules/terraform-azurerm-management-groups) | [magement-groups](https://github.com/everis-technology/terraform-azurerm-management-groups)| v0.2.20 | [Management Group Issue](https://github.com/LuisUrresti/GitHubWikiExample/issues/1) |
 | Monitor Diagnostic Setting | Module for setting the diagnostic configuration | - | [diagnostics](https://github.com/everis-technology/celz-terraform-azure-diagnostic-settings) | - | - |
 | MySQL | Module for Azure MySQL server | [mysql](https://github.com/claranet/terraform-azurerm-db-mysql) | [mysql](https://github.com/everis-technology/terraform-azurerm-db-mysql) | v4.1.1 | - |
-| Network Peering | Module for Network Peering	 | [peering](https://github.com/scalair/terraform-azure-vnet-peering) | [peering](https://github.com/everis-technology/terraform-azure-vnet-peering) | v2.0.0 | - |
+| Network Peering | Module for Network Peering	 | [peering](https://github.com/scalair/terraform-azure-vnet-peering) | [peering](https://github.com/everis-technology/terraform-azure-vnet-peering) | v2.0.0 | [Network Peering Issue](https://github.com/LuisUrresti/GitHubWikiExample/issues/2) |
 | NSG | Module for Network Security Group | [nsg](https://github.com/Azure/terraform-azurerm-network-security-group) | [nsg](https://github.com/everis-technology/terraform-azurerm-network-security-group) | v3.5.0 | - |
 | PostgreSQL | Module for PostgreSQL single server | 	[postgresql](https://github.com/Azure/terraform-azurerm-postgresql) | [postgresql](https://github.com/everis-technology/terraform-azurerm-postgresql) | v2.1.0 | - |
 | PostgreSQL Flexible Server | Module for PostgreSQL flexible server | - | - | - | - |
